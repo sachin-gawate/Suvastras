@@ -1,6 +1,6 @@
 # Suvastras Sample Code 
 # We designed our own structre for coding in Laravel
-# Controllers
+Controllers
 
 <?php
 
@@ -71,11 +71,12 @@ class CategoryController extends BaseController
         return redirect()->back()->with('error','Category not updated');
     }
 }
-# Models
 
-# Views
+Models
 
-# Requests
+Views
+
+Requests
 
 Request is class which is use to handle form request for validation. Normally we write validation in controller itself but we wrote in separate class. 
 
@@ -121,7 +122,8 @@ class CategoryRequest extends FormRequest
     }
 }
 
-# Repositories
+
+Repositories
 
 	Repository is a class which is used here to write database queries. Normally write in controller itself but to minimize the redundancy of queries, we wrote all queries separately in single file.
   
@@ -166,10 +168,9 @@ class CategoryRepository
 	}
 }
 
-# Laravel Mix(Webpack)
+Laravel Mix(Webpack)
 
-# Database Migrations
+Database Migrations
 
-# Database Migrations
 
 
