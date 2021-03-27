@@ -1,8 +1,5 @@
 # Suvastras Sample Code 
 # We designed our own structre for coding in Laravel
-
-# Suvastras Sample Code 
-# We designed our own structure for coding in Laravel
 # Controllers
 
 <?php
